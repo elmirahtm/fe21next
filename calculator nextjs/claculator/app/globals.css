@@ -1,0 +1,50 @@
+*{
+    user-select: none;
+    cursor: pointer;
+}
+body{
+    background-color: navy;
+}
+.anaelement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 620px;
+    border-radius: 12px;
+    transform: translateX(580px) translateY(20px);
+}
+
+.button-wrapper{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: space-around;
+    flex-direction: column;
+    background-color: rgb(76, 73, 73);
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+}
+.result,.text{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.alone{
+    text-align: center;
+    
+}
+
+
+
